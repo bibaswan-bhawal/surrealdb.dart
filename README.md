@@ -1,39 +1,45 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# surrealdb.dart
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
+SurrealDB library for dart and flutter.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
+[![status](https://img.shields.io/badge/status-beta-ff00bb.svg?style=flat-square)](https://github.com/surrealdb/surrealdb.js)
+[![license](https://img.shields.io/badge/license-Apache_License_2.0-00bfff.svg?style=flat-square)](https://github.com/surrealdb/surrealdb.js)
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+## Quickstart-Guide
 
-## Features
+### Install
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Import the library into your dart project with
 
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
-```dart
-const like = 'sample';
+```bash
+dart pub add surrealdb.dart
 ```
 
-## Additional information
+or for a flutter project
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+```bash
+flutter pub add surrealdb.dart
+```
+
+```dart
+import 'package:surrealdb.dart/surrealdb.dart'
+```
+
+### Getting started
+
+Here you have a simple example!
+
+```dart  
+/// Add get started example
+```
+
+## Contribution notes
+
+### Requirements
+
+- dart sdk
+
+### PRs
+
+Before you commit, please format and lint your code accordingly to check for
+errors.
