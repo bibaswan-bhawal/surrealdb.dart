@@ -1,4 +1,4 @@
-name: surrealdb
+name: surrealdb_dart
 description: dart client for surrealdb
 version: 1.0.0
 # repository: https://github.com/bibaswan_bhawal/surrealdb.dart

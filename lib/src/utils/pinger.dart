@@ -10,7 +10,7 @@ final class Pinger {
   Timer? _timer;
 
   /// Constructs a  new piner object
-  Pinger([this._interval = const Duration(seconds: 1)]);
+  Pinger([this._interval = const Duration(seconds: 30)]);
 
   /// Starts the pinger.
   void start(void Function() callback) => _timer = Timer.periodic(_interval, (_) => callback());
